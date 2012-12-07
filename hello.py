@@ -2,13 +2,15 @@
 # demo
 # try some python stuff
 #
-import FileSystem.scanner
+from FileSystem import scanner as scanner
+from FileSystem import fileProperties as prop
 
 def square(x):
 	try:
 		return x*x
 	except ValueError as valueerr:
 		print(valueerr)
+		return_ok
 	except Exception as otherErr:
 		print(otherErr)
 
@@ -24,6 +26,6 @@ while x < 10:
 	print square(x)
 	x+=1
 
-print FileSystem.scanner.scanFiles("/tmp")
+scanner.scanFiles("/tmp")
 
-
+prop.readFileProperties("/tmp/movie.avi")
