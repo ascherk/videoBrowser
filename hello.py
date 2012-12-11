@@ -15,15 +15,15 @@ def square(x):
 		print(otherErr)
 
 
-print "hello world"
-print "-----------"
+print( "hello world")
+print( "-----------")
 
 
 x = 4
 
 while x < 10:
-	print "the square of "+ str(x)+" is"
-	print square(x)
+	print( "the square of "+ str(x)+" is")
+	print( square(x) )
 	x+=1
 
 scanner.scanFiles("/tmp")
