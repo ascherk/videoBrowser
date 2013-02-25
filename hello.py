@@ -16,7 +16,6 @@ def square(x):
 
 
 print( "hello world")
-print( "-----------")
 
 
 x = 4
