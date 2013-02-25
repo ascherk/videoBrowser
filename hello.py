@@ -15,8 +15,7 @@ def square(x):
 		print(otherErr)
 
 
-print("hello world")
-print("-----------")
+print( "hello world")
 
 
 x = 4
