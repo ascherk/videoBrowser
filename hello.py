@@ -28,3 +28,5 @@ while x < 10:
 scanner.scanFiles("/tmp")
 
 prop.readFileProperties("/tmp/movie.avi")
+
+print("end")
